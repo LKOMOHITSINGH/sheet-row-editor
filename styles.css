@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#input, #output {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#cellContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    padding: 5px;
+    cursor: move;
+}
+
+button {
+    margin-bottom: 10px;
+}
